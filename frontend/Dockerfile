@@ -4,7 +4,7 @@ WORKDIR /www
 
 COPY . /www
 
-RUN yarn
+RUN yarn install
 
 RUN yarn run build
 

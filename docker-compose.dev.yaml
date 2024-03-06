@@ -53,7 +53,7 @@ services:
     networks:
       - todo_notes_application_network_dev
     volumes:
-      - ./web-application:/www
+      - ./frontend:/www
 
 volumes:
   todo_notes_application_mysql_data_dev:
