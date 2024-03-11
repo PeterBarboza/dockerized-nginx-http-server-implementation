@@ -7,7 +7,7 @@ export function Website() {
   return (
     <div>
       <button className="website-counter" onClick={() => setCount(prevState => prevState + 1)}>
-        Contagem de cliques: {count}
+        Contagem de cliques nova: {count}
       </button>
     </div>
   )
